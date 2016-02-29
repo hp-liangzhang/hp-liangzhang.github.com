@@ -2,7 +2,7 @@
 layout: post
 title:  "Deploy on Mac / Linux"
 date:   2016-02-29 14:26:34 +0800
-categories: deployment
+categories: Deployment
 ---
 # Objectives
 * Deploy a EOS server package on Linux / Mac.
@@ -29,6 +29,11 @@ cd eos
 # init
 chmod 755 eos-*
 ./eos-init
+
+# install deps
+play deps deploy/server
+# remove the uncompatible jar file
+rm deploy/server/lib/guice-4.0.jar
 ```
 
 ## Configaration

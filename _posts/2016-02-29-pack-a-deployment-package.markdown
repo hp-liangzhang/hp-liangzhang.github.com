@@ -2,7 +2,7 @@
 layout: post
 title:  "Pack a deployment package"
 date:   2016-02-29 14:26:34 +0800
-categories: deployment
+categories: Deployment
 ---
 ## Objectives
 * To pack a deployment package from the repository.
