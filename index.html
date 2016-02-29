@@ -37,7 +37,7 @@ layout: default
 <ul class="">
   {% for post in cat[1] %}
    <li id="{{ cat[0] }}">
-   <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time> &raquo;
+   <!-- <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time> &raquo; -->
   <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
   </li>
   {% endfor %}
