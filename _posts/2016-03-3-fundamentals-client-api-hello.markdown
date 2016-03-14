@@ -1,11 +1,12 @@
 ---
 layout: post
 title:  "Hello"
-date:   2016-02-3 00:41:34 +0800
+date:   2016-02-3 00:41:59 +0800
 categories: ClientApi
 ---
 
 # Hello
+Say hello to create a session with servers.
 
 ## URL
 /client/hello

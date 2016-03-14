@@ -27,6 +27,16 @@ db.url=jdbc:h2:file:./data/db;MVCC=true;LOCK_TIMEOUT=100;LOCK_MODE=0
 db.driver=org.h2.Driver
 ```
 
+## PostgreSQL
+
+```shell
+db.url=jdbc:postgresql:database_name
+db.driver=org.postgresql.Driver
+db.user=root
+db.pass=secret
+```
+
+
 ## Mysql
 
 ```shell
