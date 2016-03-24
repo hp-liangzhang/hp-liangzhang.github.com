@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Configurations for servral environments"
+title:  "Framework ID"
 date:   2016-03-1 00:00:34 +0800
-categories: Configuration
+categories: Deployment
 ---
 
 When you work in a team, different developers will use different configuration keys in their application.conf. For example, the log level or some database configuration. This generally leads to recurrent conflicts when you commit the file using your VCS.
@@ -54,7 +54,7 @@ application.mode=dev
 # More Reference
 See the Play Documentations.
 
-[Manage application.conf in several environments] (https://www.playframework.com/documentation/1.4.x/ids)
+[Manage application.conf in several environments](https://www.playframework.com/documentation/1.4.x/ids)
 
-[Put your application in production] (https://www.playframework.com/documentation/1.4.x/production)
+[Put your application in production](https://www.playframework.com/documentation/1.4.x/production)
 
