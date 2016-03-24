@@ -10,7 +10,9 @@ categories: Deployment
 # Prerequisites
 * Linux / Mac / Windows
 * JDK 7.0
-* Playframework 1.3.x
+* Playframework 1.3.x 
+
+Assume that the commands of **play** and **java** is in the PATH.
 
 # Action
 
@@ -19,19 +21,20 @@ categories: Deployment
 Let's assume that the deployment package is located at /var/www.
 
 ```shell
-cd /var/www
+mkdir /var/www
 
 # extract the deployment package
-unzip eos.zip
+unzip eos.zip -d /var/www
 
-cd eos
+cd /var/www/eos
 
 # init
 chmod 755 eos-*
 ./eos-init
 
-# install deps
+# install dependencies
 play deps deploy/server
+
 # remove the uncompatible jar file
 rm deploy/server/lib/guice-4.0.jar
 ```
@@ -69,12 +72,19 @@ To run or stop the server:
 # stop
 ./eos-server stop
 
-# using the play command directly
+# or you can use the play command directly
 # start
 play start deploy/server
 # stop
 play start deploy/server
 ```
+
+To run the server with a specific ID. Let's say 'dev' in this case:
+```shell
+play start deploy/server --%dev
+```
+
+
 
 
 
