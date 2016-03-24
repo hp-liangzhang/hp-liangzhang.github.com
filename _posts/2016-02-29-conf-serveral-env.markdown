@@ -2,7 +2,7 @@
 layout: post
 title:  "Configurations for servral environments"
 date:   2016-03-1 00:00:34 +0800
-categories: Deployment
+categories: Configuration
 ---
 
 When you work in a team, different developers will use different configuration keys in their application.conf. For example, the log level or some database configuration. This generally leads to recurrent conflicts when you commit the file using your VCS.
