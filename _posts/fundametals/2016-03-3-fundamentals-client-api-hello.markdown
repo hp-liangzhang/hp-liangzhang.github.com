@@ -30,6 +30,7 @@ POST
 | os.name | true | String | Android, iOS, WebOS, Windows_Mobile |  |
 | os.version | true | String | 0.0.0 | the version of the device. e.g. 9.0.2 |
 | app.name | true | String |  | name of a client app. e.g. com.abc.mobile.app |
+| app.version | true | String |  | version of a client app. e.g. 1.0.0 |
 | app.seed | true | String |  | a random string |
 | env.netType | false | String |  | e.g. CDMA |
 | env.pushToken | false | String |  |  |
