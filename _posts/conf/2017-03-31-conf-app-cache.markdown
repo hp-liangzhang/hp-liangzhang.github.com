@@ -5,8 +5,6 @@ date:   2017-03-31 00:41:34 +0800
 categories: Configuration
 ---
 
-# Caches
-
 By default EOS server will use a standalone cache that stores data in the JVM heap. When it is in a distributed environment, it is recommanded that uses Memcached or Redis as its cache system.
 
 To use memcached:
