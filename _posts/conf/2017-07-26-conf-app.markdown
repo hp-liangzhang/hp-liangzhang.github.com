@@ -1,0 +1,35 @@
+---
+layout: post
+title:  "Apps"
+date:   2017-07-26 00:41:34 +0800
+categories: Configuration
+---
+
+## exports all mobility apps in Hello API
+
+The default value is *disable*. 
+```
+clientapi.output_all_apps=disable
+```
+
+When it is *enable*, the response of Hello API will be added a new attribute *"allMobilityApps"* which contains all apps not filtered by permissions and roles. 
+
+## not show skin size in Hello / Login / Relogin API
+
+The default value is *disable*. 
+```
+clientapi.set_skin_size=disable
+```
+
+When it is *disable*, the size will be 0:
+```
+ { "id": "Demo", "version": "1.0.0", "token": "0ZyOt5tYKB", "size": 0 }
+```
+
+## caches 
+
+Indicate if use cache for entity mobility app and client app:
+```
+clientapi.mobility_app_cache=disable
+clientapi.client_app_cache=disable
+```
