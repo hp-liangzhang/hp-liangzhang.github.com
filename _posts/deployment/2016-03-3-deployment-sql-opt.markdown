@@ -11,9 +11,11 @@ To speed up queries, please add index to those tables.
 ```shell
 Device
     uuid
+    lastUser_id
 
 Users
     serialNumber
+    lastDevice_id
 
 ClientSessionImpl
     userSN
