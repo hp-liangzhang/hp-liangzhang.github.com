@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Deploy on Mac / Linux"
-date:   2016-02-29 14:26:34 +0800
+date:   2019-02-29 14:26:34 +0800
 categories: Deployment
 ---
 # Objectives
@@ -9,8 +9,8 @@ categories: Deployment
 
 # Prerequisites
 * Linux / Mac / Windows
-* JDK 7.0
-* Playframework 1.3.x 
+* JDK 8.0
+* Playframework 1.4.x 
 
 Assume that the commands of **play** and **java** is in the PATH.
 
