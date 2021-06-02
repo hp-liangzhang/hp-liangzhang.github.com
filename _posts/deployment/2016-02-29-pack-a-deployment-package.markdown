@@ -8,7 +8,7 @@ categories: Deployment
 * To pack a deployment package from the repository.
 
 ## Prerequisites
-* JDK 1.7
+* JDK 1.7 or 1.8
 * Play 1.4.x
 * Apache Ant
 
