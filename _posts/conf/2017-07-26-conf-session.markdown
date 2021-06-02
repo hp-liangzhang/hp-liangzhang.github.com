@@ -12,4 +12,4 @@ The default value is *disable*.
 session.renew=disable
 ```
 
-Usually the *renew* action will make the application slowlier for it create a new session of a different session id every time when an client calling Hello api which has a session Id before, then delete the old session.
+Usually the *renew* action makes the application slower because of more database operations. It duplicates a new session from the old one (if there is one) with a different session ID, then delete the old session.
