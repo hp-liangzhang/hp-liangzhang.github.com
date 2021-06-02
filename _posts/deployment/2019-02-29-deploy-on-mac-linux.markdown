@@ -9,7 +9,7 @@ categories: Deployment
 
 # Prerequisites
 * Linux / Mac / Windows
-* JDK 8.0
+* JDK 1.7
 * Playframework 1.4.x 
 
 Assume that the commands of **play** and **java** is in the PATH.
